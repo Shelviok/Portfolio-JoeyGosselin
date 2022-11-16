@@ -7,7 +7,7 @@
 
 
 html{
-    background-image: url('/Image/Background.jpg');
+    background-image: url("/Image/Background.jpg");
     background-size: 2000px;
     margin: 0%;
     width: 100%;
