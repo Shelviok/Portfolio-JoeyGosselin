@@ -8,8 +8,8 @@
 }
 
 html{
-    background-image: url("/Image/fondTest.jfif");
-    background-size: 2000px;
+    background-image: url("/Image/face+max.png");
+    background-size: 300px;
     margin: 0%;
     width: 100%;
    
@@ -18,7 +18,6 @@ body {
     margin: 0%;
     width: 100%;
 }
-
 .main-containeur{
     display: grid;
     grid-template-rows: 100px 10% 28% 20% 20% 10%;
@@ -27,8 +26,8 @@ body {
     grid-template-areas: 
     'titre titre titre table'
     'contact . . .'
-    'contact . txt .'
-    'contact . txt .'
+    'contact . . .'
+    'contact . . .'
     'contact  . . .'
     'contact . . .';
 }
@@ -70,8 +69,6 @@ body {
     text-decoration: none;
     color: black;
 }
-
-
 /* Contact */
 #contactTXT {
     opacity: 100%;
@@ -94,17 +91,4 @@ body {
 
 .titre-contact{
     text-decoration: underline;
-}
-
-.lien {
-    color: aliceblue;
-}
-
-.txtAccueil{
-    grid-area: txt;
-    font-family: "ti-trait";
-    background-color: gray;
-    border-radius: 10%;
-    border-color: black;
-    border-spacing: 10px;
 }
