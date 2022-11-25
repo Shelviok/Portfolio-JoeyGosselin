@@ -21,15 +21,15 @@ body {
 .main-containeur{
     display: grid;
     grid-template-rows: 100px 10% 28% 20% 20% 10%;
-    grid-template-columns:12% 18% 30% 40%;
+    grid-template-columns:12% 18% 30% 30% 10%;
     height: 100vh;
     grid-template-areas: 
-    'titre titre titre table'
-    'contact . . .'
-    'contact . . .'
-    'contact . . .'
-    'contact  . . .'
-    'contact . . .';
+    'titre titre titre table table'
+    'contact . . . .'
+    'contact . txt txt .'
+    'contact . txt txt .'
+    'contact . . . .'
+    'contact . . . .';
 }
 .titre{
    
@@ -91,4 +91,17 @@ body {
 
 .titre-contact{
     text-decoration: underline;
+}
+
+#txt{
+    grid-area: txt;
+    font-family: "ti-trait";
+    background-color: gray;
+    border-radius: 10%;
+    border-color: black;
+    border-spacing: 10px;
+}
+
+.lien {
+    color: aliceblue;
 }
