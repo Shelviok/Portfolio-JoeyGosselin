@@ -91,7 +91,17 @@ body {
 
 .titre-contact{
     text-decoration: underline;
+    text-align: center;
 }
 .lien {
     color: aliceblue;
+}
+
+#txt{
+    grid-area: txt;
+    font-family: "ti-trait";
+    background-color: gray;
+    border-radius: 10%;
+    border-color: black;
+    border-spacing: 10px;
 }
